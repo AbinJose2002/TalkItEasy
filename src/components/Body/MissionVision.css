@@ -1,3 +1,14 @@
 .head{
     color: #6B74E2;
 }
+
+.mission{
+    border-right: 1px solid black;
+}
+
+@media screen and (max-width: 998px){
+    .mission{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}
