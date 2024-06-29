@@ -19,7 +19,9 @@ const Footer = () => {
                 </div>
                 <h3 className="contact text-white">Contact Us</h3>
                 <h6 className="text-white">Email: info@talkiteasy.com</h6>
-                <h6 className="text-white">Phone: +91-XXXXXXXXXX</h6>
+                <h6 className="text-white">Phone: +91-7994296732</h6>
+                <h6 className="text-white">Head Office:
+                Hormis Nagar, Mookkannoor, Angamaly, Kerala 683577</h6>
             </div>
             <div className="footer-bottom d-flex justify-content-between">
                 <div className="copyright">Copyright &copy; TalkItEasy. 2024</div>
