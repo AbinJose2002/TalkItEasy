@@ -1,0 +1,42 @@
+.coreCard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .coreCard {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0 20px solid ;    
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .coreCard:hover {
+    transform: translateY(-10px);
+  }
+  
+  .coreCard-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .coreCard-subParagraph {
+    font-size: 1em;
+    color: #fff;
+  }
+  
+
+  .why{
+    color: #6B74E2;
+  }

@@ -1,0 +1,19 @@
+.right-sec img{
+    width: 100%;
+    height: auto;
+}
+
+.left-sec{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+.banner-head{
+    font-weight: 500;
+}
+
+.banner-para{
+    text-align: left;
+}
