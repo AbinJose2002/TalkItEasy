@@ -6,6 +6,7 @@ import MissionVision from './components/Body/MissionVision'
 import Core from './components/Body/Core'
 import Offer from './components/Body/Offer'
 import Contact from './components/Body/Contact'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Core/>
       <Offer/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

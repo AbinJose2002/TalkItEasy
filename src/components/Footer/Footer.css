@@ -1,0 +1,36 @@
+.footer{
+    margin-top: 2em;
+    background-color: rgba(0, 0, 0, 0.723);
+    height: auto;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.footer-head{
+    color: #6B74E2;
+    
+}
+
+.footer-para{
+    color: white;
+}
+
+.footer-bottom{
+    padding: 1em;
+    background-color: black;
+    color: white;
+}
+
+.footer-bottom-list{
+    list-style: none;
+}
+
+.footer-bottom-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-links img{
+    width: 50px;
+    height: 50px;
+}

@@ -23,7 +23,7 @@ const Why = () => {
 
   return (
       <>
-        <h1 className=" my-5 why-head text-center">Why<span className="why"> TalkItEasy?</span></h1>
+        <h1 className=" my-5 why-head text-center" id='why'>Why<span className="why"> TalkItEasy?</span></h1>
     <div className="card-container container">
       {cards.map((card, index) => (
         <div className="card shadow" key={index}>

@@ -18,7 +18,7 @@ const Offer = () => {
     ];
  const [selectedOffer, setSelectedOffer] = useState(offers[0]);
     return (
-        <div className='container my-5'>
+        <div className='container my-5 mx-auto' id='offer'>
             <h1 className=" my-5 why-head text-center">What we <span className="why">Offer?</span></h1>
             <div className="offers-container">
       <div className="button-group">

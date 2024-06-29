@@ -2,23 +2,32 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='container col-sm-12 col-md-8 col-lg-6'>
+    <div className='container col-sm-12 col-md-8 col-lg-6' id='contact'>
         <h1 className=" my-5 why-head text-center">Contact Us</h1>
-      <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      <form className='pb-5'>
+  <div className="mb-3">
+    <label className="form-label">Enter Your Name</label>
+    <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1"/>
+  <div className="mb-3 row">
+    <div className=' col-sm-12 col-lg-6'>
+    <label  className="form-label">Select Your Course</label>
+    <select className="form-select" aria-label="Default select example">
+        <option value="english">English Training</option>
+        <option value="industry">Industry Training</option>
+        <option value="corporate">Corporate Training</option>
+    </select>
+    </div>
+    <div className=' col-sm-12 col-lg-6'>
+        <label  className="form-label">Enter Your Number</label>
+        <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    </div>
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  <div className="mb-3 form-check">
+    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
+    <label className="form-check-label">Check me out</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" className="btn btn-primary">Submit</button>
 </form>
     </div>
   )
