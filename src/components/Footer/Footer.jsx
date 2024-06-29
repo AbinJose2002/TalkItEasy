@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import facebook_icon from '../../assets/facebook.png'
-import linkedin_icon from '../../assets/linkedin.png'
+import linkedin_icon from '../../assets/instagram.png'
 import twitter_icon from '../../assets/twitter.png'
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
                 <p className="footer-para">
                 Unlock Your Future with English Proficiency for ITI Students
                 </p>
-                <div className=" col-md-5 col-lg-3 col-sm-12 mx-auto social-links py-4 d-flex align-items-center justify-content-around">
+                <div className=" col-md-5 col-lg-2 col-sm-12 mx-auto social-links py-4 d-flex align-items-center justify-content-around">
                     <img src={twitter_icon} alt="" />
                     <img src={linkedin_icon} alt="" />
                     <img src={facebook_icon} alt="" />
