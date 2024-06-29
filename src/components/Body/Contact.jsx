@@ -23,11 +23,9 @@ const Contact = () => {
         <input type="number" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
     </div>
   </div>
-  <div className="mb-3 form-check">
-    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-    <label className="form-check-label">Check me out</label>
+  <div className="btn-container mx-auto">
+    <button type="submit" className="btn btn-primary">Request Call Back</button>
   </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
 </form>
     </div>
   )
